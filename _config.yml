@@ -1,0 +1,50 @@
+# Site settings
+title: Leon Blog
+SEOTitle: Leon的博客 | Leon Blog
+header-img: img/home-bg.jpg
+email: leon.limiao@gmail.com
+
+#description: ""
+#description: "关于DevOPS, 云计算, 存储 | Leon，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Leon 的个人博客，与你一起发现更大的世界。"
+description: >-
+    关于DevOPS, 云计算, 存储
+
+#keyword: ""
+keyword: "Leon, leon, @leon, Leon的博客, Leon Blog, devops, pve, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+
+#url: "http://huangxuan.me"
+#baseurl: "/huxblog-boilerplate"
+
+
+# SNS settings
+RSS: false
+github_username:    leonlm
+
+
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true
+
+
+gems: [jekyll-paginate]
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+
+
+# Sidebar settings
+sidebar: true
+sidebar-about-description: "解决问题的办法有多个。"
+sidebar-avatar: /img/avatar-leonlm.jpg
+
+
+# Featured Tags
+featured-tags: true
+featured-condition-size: 1
+
+
