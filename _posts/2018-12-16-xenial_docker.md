@@ -93,6 +93,11 @@ ExecStart=/usr/bin/dockerd -H fd:// --registry-mirror=https://docker.mirrors.ust
 ```
 
 
+## github
+https://github.com/leonlm/opm-tools/blob/master/install/docker.sh
+
+
+
 ## 参考
 官网：https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
 
