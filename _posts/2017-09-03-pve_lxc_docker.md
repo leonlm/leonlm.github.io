@@ -55,7 +55,7 @@ EOF
 ```
 
 
-## 添加国内源
+## docker服务添加国内源
 
 > 查看docker.service文件路径
 
@@ -66,7 +66,7 @@ EOF
 > 修改启动参数
 
 ```
-# vi /usr/lib/systemd/system/docker.servic
+# vi /usr/lib/systemd/system/docker.service
 ...
 ExecStart=/usr/bin/dockerd --registry-mirror=https://docker.mirrors.ustc.edu.cn
 ...
